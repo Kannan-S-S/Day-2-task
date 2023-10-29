@@ -1,0 +1,18 @@
+Key Differences Between Document and Window Objects:
+
+The individual characteristics of the Document and Window objects, 
+let's summarize the key differences between them:
+
+Scope: The Document object is scoped to the content of a web page, representing its structure and content,
+ while the Window object encompasses the entire browser window or tab.
+
+Hierarchy: Document objects form a hierarchical tree structure to represent HTML content,
+allowing developers to traverse and manipulate it. In contrast, Window objects exist as distinct, 
+separate instances for each open tab or window.
+
+Content vs. Browsing: The Document object focuses on the content of a web page, 
+including HTML, CSS, and JavaScript within it. 
+The Window object is responsible for browser-level functions and managing the browsing environment.
+
+Global vs. Local: The Window object is global and can be accessed from anywhere in the JavaScript code. 
+Document objects are local to the specific web page and its content.
